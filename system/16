@@ -1,0 +1,9 @@
+For run specific tasks following a regular schedule use:
+	cron
+Use cronab
+[-l]:
+		print the contents of the current schedule file.
+[-e]:
+		deletes the current schedule file.
+[-r]:
+		editing the schedule file  (at the firt start, a list of supported text editors will be displayed).

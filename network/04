@@ -1,0 +1,1 @@
+netstat -rn | grep default | awk '/10./{print $2}'

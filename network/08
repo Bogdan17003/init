@@ -1,0 +1,17 @@
+At first we get IP address of slash16.org:
+	host slash16.org
+	slash16.org has address 54.192.230.162
+	slash16.org has address 54.192.230.145
+	slash16.org has address 54.192.230.59
+	slash16.org has address 54.192.230.31
+At second we take one of the IP addresses and search with 'whois':
+	Example: whois 54.192.230.59 | grep Org | awk '{print $1,$2}'
+And we get all information about provaider:
+	Organization: Amazon
+	OrgName: Amazon
+	OrgId: AT-88-Z
+	OrgNOCHandle: AANO1-ARIN
+	OrgNOCName: Amazon
+	OrgNOCPhone: +1-206-266-4064
+	OrgNOCEmail: amzn-noc-contact@amazon.com
+	OrgNOCRef: https://rdap.arin.net/registry/entity/AANO1-ARIN
